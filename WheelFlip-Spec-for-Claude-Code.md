@@ -234,7 +234,7 @@ targets:
         CFBundleShortVersionString: "1.0.0"
         CFBundleVersion: "1"
         LSApplicationCategoryType: public.app-category.utilities
-        NSHumanReadableCopyright: "© 2026 Abdulloh"
+        NSHumanReadableCopyright: "© 2026 Takhirjanovich"
     entitlements:
       path: Resources/WheelFlip.entitlements
       properties: {}

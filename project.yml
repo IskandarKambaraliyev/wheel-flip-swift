@@ -40,7 +40,7 @@ targets:
         CFBundleVersion: "1"
         LSApplicationCategoryType: public.app-category.utilities
         LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
-        NSHumanReadableCopyright: "© 2026 Abdulloh"
+        NSHumanReadableCopyright: "© 2026 Takhirjanovich"
     entitlements:
       path: Resources/WheelFlip.entitlements
       properties: {}
