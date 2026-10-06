@@ -45,7 +45,7 @@ Pointer acceleration settings, button remapping, per-app rules, smooth-scroll an
 | Item | Value |
 |---|---|
 | App name | WheelFlip |
-| Bundle ID | `com.abdulloh.wheelflip` |
+| Bundle ID | `uz.stiv.wheelflip` |
 | Minimum macOS | 14.0 |
 | Architectures | arm64 |
 | Signing | Apple Development (automatic), Team ID from the developer's account. Ad-hoc signing must NOT be used: TCC (Accessibility) permission is bound to the code signature and would reset on every build. |
@@ -201,7 +201,7 @@ WheelFlip/
 ```yaml
 name: WheelFlip
 options:
-  bundleIdPrefix: com.abdulloh
+  bundleIdPrefix: uz.stiv
   deploymentTarget:
     macOS: "14.0"
 settings:
@@ -240,7 +240,7 @@ targets:
       properties: {}
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.abdulloh.wheelflip
+        PRODUCT_BUNDLE_IDENTIFIER: uz.stiv.wheelflip
   WheelFlipTests:
     type: bundle.unit-test
     platform: macOS
@@ -272,7 +272,7 @@ install: build
 	@du -sh /Applications/$(APP).app
 
 reset-permission:
-	tccutil reset Accessibility com.abdulloh.wheelflip
+	tccutil reset Accessibility uz.stiv.wheelflip
 ```
 
 ---
